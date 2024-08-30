@@ -1,0 +1,56 @@
+.header-about {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-about a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--paragraph);
+}
+
+.header-about a:hover {
+  color: var(--primary);
+}
+
+.header-about img {
+  width: 20px;
+  height: 20px;
+}
+
+.main-about {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.main-about h3 {
+  margin-bottom: 10px;
+}
+
+.btn-project {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  color: var(--paragraph);
+  transition: color 0.3s, transform 0.3s;
+  cursor: pointer;
+  width: fit-content;
+  padding: 10px;
+}
+
+.btn-project img {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s;
+}
+
+.btn-project:hover {
+  color: var(--primary);
+}
+
+.btn-project:hover img {
+  transform: rotate(45deg);
+}

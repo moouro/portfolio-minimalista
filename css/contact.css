@@ -1,0 +1,46 @@
+.header-about {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-about a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--paragraph);
+}
+
+.header-about a:hover {
+  color: var(--primary);
+}
+
+.header-about img {
+  width: 20px;
+  height: 20px;
+}
+
+.contact {
+  margin-top: 30px;
+  grid-template-columns: 1fr;
+  display: grid;
+  gap: 20px;
+}
+
+.contact li {
+  background-color: var(--bg-card);
+  border-radius: 5px;
+  padding: 15px 10px;
+}
+
+.contact a {
+  color: var(--paragraph);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact strong {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
